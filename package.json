@@ -8,7 +8,7 @@
         "dev": "babel ./src/ --delete-dir-on-start -d ./dist/ && node ./dist/index",
         "build": "babel ./src/ --delete-dir-on-start --compact true --minified -d ./dist/ && node ./dist/index"
     },
-    "author": "CrypticSafe5",
+    "author": "Overseers",
     "license": "ISC",
     "babel": {
         "presets": [
