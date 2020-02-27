@@ -1,6 +1,6 @@
 import * as admin from 'firebase-admin';
 import * as firebase from 'firebase';
-import serviceAccount from '../../../config/pertinate-info-firebase-adminsdk-68by7-5a2ff9d7d9.json';
+import serviceAccount from '../../../config/pertinate-info-firebase-adminsdk-68by7-01de8ac7d5.json';
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
