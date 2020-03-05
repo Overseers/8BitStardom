@@ -17,10 +17,6 @@ const PORT = process.env.PORT || 8080;
     };
 });
 
-GetUserByEmail('ppertinate@gmail.com').then(result => console.log(result)).catch(error => {
-    console.error(error);
-    RegisterNewUser('Pertinate', 'ppertinate@gmail.com', '[Pertinate]18').then(result => console.log(result)).catch(error => console.error(error));
-});
 // GetToken('Pertinate').then(result => console.log(result)).catch(error => console.log(error));
 
 EmailLogin('ppertinate@gmail.com', '[Pertinate]18');
