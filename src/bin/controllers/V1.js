@@ -15,7 +15,8 @@ export default class V1 {
     }
 
     login(request, response) {
-        EmailLogin(request.query.email, request.query.password).then(result => {
+        console.log(request);
+        EmailLogin(request.body.email, request.body.password).then(result => {
             response.cookie('token', result);
             response.send(result);
         });
